@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.head{
+    margin: 20;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content: center;    
+}
+
+.welcome{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+.butuse{
+
+    box-shadow:  0px 4px 10px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 300px;
+    padding: 50px;
+    border-radius: 10px;
+    
+
+
+}
+.button{
+    margin-top: 10px;
+    height: 20px;
+    width: 50px;
+}
+
+@keyframes act{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
+
+
+.button:hover{
+    background-color: rgb(75, 201, 92);
+}
+
+.button:active{
+    animation: act ease-in;
+    transform: scale(1);
+
+
+}
+
