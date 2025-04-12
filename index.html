@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+    
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tibor Bank Of The Philippines</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibor Bank Of The Philippines</title>
 </head>
+   
+    <body>
+    <h1 class = "head"> Simple Bank </h1>
+    <br>
+    <p class="welcome" >Welcome to the most trusted bank sa bahay</p>
 
-<body>
-  <h1 class="head">Simple Bank</h1>
-  <p class="welcome">Welcome to the most trusted bank sa bahay</p>
+   
+   <div class = "container">
+    <div class = "butuse">
 
-  <div class="container">
-    <div class="butuse">
-      <div class="image" style="display: flex; justify-content: center;">
-        <img src="img/this.jpeg" alt="Bank Image" class="bankimage" />
-      </div>
+        <div class ="image" style="display: flex; justify-content: center;">
+            <img src = "this.jpeg" alt=" Bank Image" class="bankimage">
+        </div>
+        <br>
+       
+        <input type="text" id = "username" placeholder="username" class="input">
 
-      <br />
+       
+        <input type="password" id = "password" placeholder="password" class ="password">
+        <br>
+        <button  onclick="buttont()" class=" button" > LogIn </button>
 
-      <input type="text" id="username" placeholder="Username" class="input" />
-      <input type="password" id="password" placeholder="Password" class="password" />
-
-      <br />
-      <button onclick="buttont()" class="button">Log In</button>
+       
+        </div>     
     </div>
-  </div>
 
-  <script src="script.js"></script>
 </body>
+
+
+
+
+    
+
 </html>
