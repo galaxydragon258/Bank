@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 
 
 }
@@ -26,14 +27,19 @@ body{
     height: 300px;
     padding: 50px;
     border-radius: 10px;
+ 
     
 
 
 }
 .button{
-    margin-top: 10px;
-    height: 20px;
-    width: 50px;
+    margin-left: 30px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #003070;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @keyframes act{
@@ -45,12 +51,38 @@ body{
 
 .button:hover{
     background-color: rgb(75, 201, 92);
+    background-color: #009CDE;
 }
 
+
 .button:active{
+    background-color: #009CDE;
     animation: act ease-in;
     transform: scale(1);
 
 
 }
+.bankimage{
+    width: 100px;
+    height: 100px;
 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding:  80px;
+}
+.input, .password{
+    margin-bottom: 30px;
+    width: 250px;
+    height: 45px;
+    
+}
+.input:hover,.password:hover{
+    border: 1px solid #009CDE;
+    border-width: 2px;
+    
+    
+   
+}
