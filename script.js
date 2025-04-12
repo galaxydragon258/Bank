@@ -1,9 +1,26 @@
-const use = ["Mark","Justine","Tibor"];
+document.addEventListener("DOMContentLoaded", function() {
+
+    const usern= document.getElementById("username")
+
+    const passw = document.getElementById("password")
 
 
-use.sort();
+    function button(){
+        if(usern.value == ""){
+            alert("Error");
+        }
+        if(usern.value == "Admind"&& passw.value != "Admind"){
+            alert("Wrong Password");
+        }
 
-console.log(use);
-use.reverse();
+     
 
-console.log(use);
+
+
+    }
+
+    document.querySelector(".button").addEventListener("click", button);
+
+
+
+});
